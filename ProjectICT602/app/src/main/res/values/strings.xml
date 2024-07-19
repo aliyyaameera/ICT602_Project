@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EventExplorer</string>
+    <string name="home_text">Start searching for events now!</string>
+    <string name="select">Select State</string>
+    <string name="link"><a href="https://github.com/aliyyaameera/ICT602/tree/main/IndvAsg">Click here for more info</a></string>
+    <string name="copyright">Copyright &#169; 2024. EventExplorer</string>
+</resources>
