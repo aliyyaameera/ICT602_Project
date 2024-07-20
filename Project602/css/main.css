@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', 'sans-serif';
+    color: #021222; /* Dark text color */
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background for the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #323a41; /* Dark color similar to the background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #ffffff; /* White color for the brand name */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ffffff; /* White color for navigation links */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+.hero {
+    background-image: url('../image/map.png'); /* Adjust this path as necessary */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 20px; /* Add some horizontal padding for better alignment */
+    width: 100%; /* Ensure the hero section covers the full width */
+    color: white; /* White text color for the hero section */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: flex; /* Add flexbox to the hero section */
+    align-items: center; /* Center items vertically */
+}
+
+.hero-content {
+    max-width: 800px; /* Ensure the content doesn't exceed a specific width */
+    margin: 0; /* Remove auto-centering */
+    text-align: left; /* Ensure text alignment is to the left */
+    align-self: flex-start; /* Align the content to the start (left side) */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.left-text {
+    margin-right: auto; /* Push the text to the left side */
+    max-width: 600px; /* Limit the width of the text container */
+    padding: 20px; /* Add some padding for readability */
+}
+
+.about-section {
+    margin-top: 20px; /* Adjust margin to create space between sections */
+    background-color: #ffffff; /* White background for the about section */
+    color: #021222; /* Dark gray text color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Center the about section */
+    margin: 20px auto; /* Add some margin to top and bottom for spacing */
+    text-align: left;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.list-events-title {
+    margin-top: 40px; /* Adjust this value as needed */
+    font-size: 1.5rem; /* Example font size; adjust as desired */
+    font-weight: bold; /* Example font weight; adjust as desired */
+    text-align: center; /* Center the text */
+}
+
+.center-text {
+    margin-top: 40px; /* Adjust this value as needed */
+    font-size: 1.5rem; /* Example font size; adjust as desired */
+}
+
+.center-title {
+    text-align: center;
+    margin-top: 20px; /* Adjust as necessary */
+    font-size: 2rem; /* Adjust as necessary */
+    font-weight: bold; /* Adjust as necessary */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #323a41; /* Dark color similar to the navbar */
+    color: #ffffff; /* White text color */
+    margin-top: auto; /* Push the footer to the bottom of the page */
+}
