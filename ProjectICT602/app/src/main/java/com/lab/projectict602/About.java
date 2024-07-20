@@ -13,12 +13,17 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class About extends AppCompatActivity {
 
+    TextView textLink;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
 
         setContentView(R.layout.activity_about);
+
+        textLink = findViewById(R.id.textLink);
+        textLink.setMovementMethod(LinkMovementMethod.getInstance());
 
         // Set up the toolbar
         Toolbar toolbar = findViewById(R.id.toolbarAbout);
